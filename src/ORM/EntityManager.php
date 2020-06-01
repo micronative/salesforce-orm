@@ -326,7 +326,7 @@ class EntityManager
 
     /**
      * @param string $class class
-     * @return \Salesforce\ORM\Repository
+     * @return \Salesforce\ORM\RepositoryInterface
      * @throws \Exception
      */
     public function getRepository(string $class = null)

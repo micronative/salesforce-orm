@@ -6,9 +6,9 @@ use Salesforce\Cache\CacheEngineFactory;
 
 class Connection
 {
-    /** @var Config */
+    /** @var ConfigInterface */
     protected $config;
-    /** @var Client */
+    /** @var ClientInterface */
     protected $client;
 
     /**
@@ -37,7 +37,7 @@ class Connection
     }
 
     /**
-     * @return \Salesforce\Client\Config
+     * @return \Salesforce\Client\ConfigInterface
      */
     public function getConfig()
     {
@@ -45,10 +45,10 @@ class Connection
     }
 
     /**
-     * @param \Salesforce\Client\Config $config
+     * @param \Salesforce\Client\ConfigInterface $config
      * @return \Salesforce\Client\Connection
      */
-    public function setConfig(Config $config = null)
+    public function setConfig(ConfigInterface $config = null)
     {
         $this->config = $config;
 
@@ -56,7 +56,7 @@ class Connection
     }
 
     /**
-     * @return \Salesforce\Client\Client
+     * @return \Salesforce\Client\ClientInterface
      */
     public function getClient()
     {
@@ -64,10 +64,10 @@ class Connection
     }
 
     /**
-     * @param \Salesforce\Client\Client $client
+     * @param \Salesforce\Client\ClientInterface $client
      * @return \Salesforce\Client\Connection
      */
-    public function setClient(Client $client = null)
+    public function setClient(ClientInterface $client = null)
     {
         $this->client = $client;
 

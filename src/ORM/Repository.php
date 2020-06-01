@@ -4,7 +4,7 @@ namespace Salesforce\ORM;
 
 use Salesforce\ORM\Exception\RepositoryException;
 
-class Repository
+class Repository implements RepositoryInterface
 {
 
     /* @var string $className class name */

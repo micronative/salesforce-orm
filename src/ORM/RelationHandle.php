@@ -1,7 +1,7 @@
 <?php
 namespace Salesforce\ORM;
 
-class RelationHandle
+abstract class RelationHandle
 {
     /** @var EntityManager */
     protected $entityManager;

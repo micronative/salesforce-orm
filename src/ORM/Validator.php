@@ -1,7 +1,7 @@
 <?php
 namespace Salesforce\ORM;
 
-class Validator
+abstract class Validator
 {
     /** @var Mapper */
     protected $mapper;

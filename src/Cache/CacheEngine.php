@@ -8,7 +8,7 @@ use Salesforce\Cache\Exception\CacheException;
  *
  * @package Salesforce\Cache
  */
-abstract class CacheEngine
+abstract class CacheEngine implements CacheEngineInterface
 {
     protected $cacheDir;
     protected $cacheTime;
