@@ -1,13 +1,13 @@
 {
-  "name": "brightecapital/salesforce-orm",
+  "name": "micronative/salesforce-orm",
   "description": "Salesforce ORM",
   "keywords": [ "Salesforce", "ORM", "Entity", "Entity Manager", "Repository" ],
-  "homepage": "https://github.com/brightecapital/",
+  "homepage": "https://github.com/micronative/",
   "license": "MIT",
   "authors": [
     {
       "name": "Ken Ngo",
-      "email": "ken.ngo@brighte.com.au"
+      "email": "ngodinhloc@gmail.com"
     }
   ],
   "require": {
