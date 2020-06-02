@@ -2,6 +2,8 @@
 
 namespace Salesforce\ORM;
 
+use Salesforce\ORM\Annotation as SF;
+
 class Entity
 {
     const PROPERTY_IS_NEW                = "isNew";
