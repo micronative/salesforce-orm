@@ -85,7 +85,7 @@ class ClientTest extends TestCase
 
         $object = 'something';
         $result =$this->client->createObject($object, $data);
-        $this->assertFalse($result);
+        $this->assertEmpty($result);
 
         // force an exception
         $exception = new ClientException();
