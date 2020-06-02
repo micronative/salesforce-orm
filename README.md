@@ -6,15 +6,15 @@
 [![Coverage][ico-codecov]][link-codecov]
 
 [ico-license]: https://img.shields.io/github/license/nrk/predis.svg?style=flat-square
-[ico-version-stable]: https://img.shields.io/packagist/v/brightecapital/salesforce-orm.svg
-[ico-downloads-monthly]: https://img.shields.io/packagist/dm/brightecapital/salesforce-orm.svg
-[ico-travis]: https://travis-ci.com/brighte-capital/salesforce-orm.svg?branch=master
-[ico-codecov]: https://codecov.io/gh/brighte-capital/salesforce-orm/branch/master/graph/badge.svg
+[ico-version-stable]: https://img.shields.io/packagist/v/micronative/salesforce-orm.svg
+[ico-downloads-monthly]: https://img.shields.io/packagist/dm/micronative/salesforce-orm.svg
+[ico-travis]: https://travis-ci.com/micronative/salesforce-orm.svg?branch=master
+[ico-codecov]: https://codecov.io/gh/micronative/salesforce-orm/branch/master/graph/badge.svg
 
-[link-packagist]: https://packagist.org/packages/brightecapital/salesforce-orm
-[link-codecov]: https://codecov.io/gh/brighte-capital/salesforce-orm
-[link-travis]: https://travis-ci.com/brighte-capital/salesforce-orm
-[link-downloads]: https://packagist.org/packages/brightecapital/salesforce-orm/stats
+[link-packagist]: https://packagist.org/packages/micronative/salesforce-orm
+[link-codecov]: https://codecov.io/gh/micronative/salesforce-orm
+[link-travis]: https://travis-ci.com/micronative/salesforce-orm
+[link-downloads]: https://packagist.org/packages/micronative/salesforce-orm/stats
 
 ## Configuration
 composer.json
