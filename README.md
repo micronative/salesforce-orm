@@ -16,7 +16,7 @@
 [link-travis]: https://travis-ci.com/micronative/salesforce-orm
 [link-downloads]: https://packagist.org/packages/micronative/salesforce-orm/stats
 
-## Configuration 
+## Configuration
 composer.json
 <pre>
 "require": {
