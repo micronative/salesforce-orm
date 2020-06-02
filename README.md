@@ -20,13 +20,13 @@
 composer.json
 <pre>
 "require": {
-        "brightecapital/salesforce-orm": "^1.4.2"
+        "micronative/salesforce-orm": "^1.9.0"
     }
 </pre>
 
 Run 
 <pre>
-composer require brightecapital/salesforce-orm
+composer require micronative/salesforce-orm
 </pre>
 ## Sample code
 #### EntityManager
