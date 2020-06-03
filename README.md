@@ -13,7 +13,7 @@
 
 [link-packagist]: https://packagist.org/packages/micronative/salesforce-orm
 [link-codecov]: https://codecov.io/gh/micronative/salesforce-orm
-[link-travis]: https://travis-ci.com/micronative/salesforce-orm
+[link-travis]: https://travis-ci.com/github/micronative/salesforce-orm
 [link-downloads]: https://packagist.org/packages/micronative/salesforce-orm/stats
 
 ## Configuration 
