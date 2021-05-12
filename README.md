@@ -1,32 +1,32 @@
 # Salesforce ORM for PHP: Doctrine style entities, entity manager and repository
 [![Software license][ico-license]](README.md)
 [![Version][ico-version-stable]][link-packagist]
-[![Download][ico-downloads-monthly]][link-downloads]
 [![Build status][ico-travis]][link-travis]
 [![Coverage][ico-codecov]][link-codecov]
 
 [ico-license]: https://img.shields.io/github/license/nrk/predis.svg?style=flat-square
 [ico-version-stable]: https://img.shields.io/packagist/v/micronative/salesforce-orm.svg
-[ico-downloads-monthly]: https://img.shields.io/packagist/dm/micronative/salesforce-orm.svg
 [ico-travis]: https://travis-ci.org/micronative/salesforce-orm.svg?branch=master
 [ico-codecov]: https://codecov.io/gh/micronative/salesforce-orm/branch/master/graph/badge.svg
 
 [link-packagist]: https://packagist.org/packages/micronative/salesforce-orm
 [link-codecov]: https://codecov.io/gh/micronative/salesforce-orm
 [link-travis]: https://travis-ci.org/github/micronative/salesforce-orm
-[link-downloads]: https://packagist.org/packages/micronative/salesforce-orm/stats
 
 ## Configuration 
 composer.json
 <pre>
 "require": {
-        "micronative/salesforce-orm": "^1.9.0"
-    }
+        "micronative/salesforce-orm": "^2.0.0"
+ },
+ "repositories": [
+    { "type": "vcs", "url": "https://github.com/micronative/salesforce-orm" }
+],
 </pre>
 
 Run 
 <pre>
-composer require micronative/salesforce-orm
+composer require micronative/salesforce-orm:2.0.0
 </pre>
 ## Sample code
 #### EntityManager
